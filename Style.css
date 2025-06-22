@@ -79,35 +79,36 @@ nav ul li a:hover{
     font-weight: 600;
     font-family: "Roboto Condensed", sans-serif;
 }
-.update-label{
-    position: absolute;
-    bottom: 15%;
-    width: 15%;
-    float: right;
-    font-weight: 600;
-    color: #14b7f2;
-    font-size: 22px;
-    font-family:"Roboto Condensed", sans-serif ;
-}
-.update li{
-    display: inline-block;
-    justify-content: space-between;
-    list-style: none;
-    margin-right: 15%;
-    padding: 2% 10px;
-    text-align: center;
-}
+/*-------------------Event--------------*/
 .event{
-    margin-top: 110px;
-    width: 87%;
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10%;
+    height: 35vh;
+    border-bottom: 2px dashed #fff;
+    border-top: 2px dashed #fff;
 }
-.update li a{
+.sub-title{
+    font-size: 24px;
+    border-bottom: 3px solid #14b7f2;
+    border-radius: 2px;
+    margin:10px 10px;
+}
+.event ul li{
+    list-style: none;
+    display: inline-block;
+    margin:30px;
+    margin-left: 20%;
+    padding: 20px;
+}
+.event ul li a{
     text-decoration: none;
     color: #fff;
-    margin-bottom: 10px;
+    padding: 75%;
+    border-radius: 3px;
+    border: 2px solid #fff;
 }
-/*----------------------About-----------*/
+/*-------------------About--------------*/
 #about{
     padding: 25% 10px;
     display: flex;
